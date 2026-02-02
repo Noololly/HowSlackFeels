@@ -14,5 +14,4 @@ const app = new App({
 import * as msg from "./message";
 import * as cb from "./cb";
 msg.reg(app);
-msg.exec(app);
 cb.reg(app);
