@@ -1,0 +1,33 @@
+{
+  "name": "howslackfeels",
+  "version": "0.1.0",
+  "description": "A HowWeFeel-like Slack bot",
+  "keywords": [
+    "howwefeel",
+    "slack",
+    "bot"
+  ],
+  "homepage": "https://github.com/Milk-Cool/HowSlackFeels#readme",
+  "bugs": {
+    "url": "https://github.com/Milk-Cool/HowSlackFeels/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milk-Cool/HowSlackFeels.git"
+  },
+  "license": "MIT",
+  "author": "Milk_Cool",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx bot.ts"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.6.0",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}
