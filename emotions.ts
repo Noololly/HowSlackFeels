@@ -42,5 +42,9 @@ export default [
     {
         "name": "tired",
         "emoji": "emo-tired"
+    },
+    {
+        "name": "hungry",
+        "emoji": "emo-hungry"
     }
 ] as Emotion[];
